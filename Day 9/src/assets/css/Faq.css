@@ -1,0 +1,30 @@
+/* PrivacyPolicy.css */
+.div1 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the FAQ questions */
+  div.div1 > p:nth-child(odd) {
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  
+  /* Style the FAQ answers */
+  div.div1 > p:nth-child(even) {
+    margin-bottom: 15px;
+  }
+  
+  /* Add a separator line between questions and answers */
+  div.div1 > p {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
